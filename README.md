@@ -1,7 +1,5 @@
-Here is the full README with detailed instructions and descriptions:
 
-````markdown
-# Job Recommendation System
+# MaroPolo AI Model Endpoints
 
 ## Overview
 
