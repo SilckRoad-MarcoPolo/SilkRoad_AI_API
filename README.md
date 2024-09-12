@@ -1,5 +1,6 @@
 
 # MaroPolo AI Model Endpoints
+![Silk Road Logo](./logo.jpg)
 
 ## Overview
 
