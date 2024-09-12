@@ -26,6 +26,14 @@ Create a virtual environment to manage project dependencies:
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 ```
+**Clone the Repository**
+
+   ```bash
+   git clone https://github.com/SilckRoad-MarcoPolo/SilkRoad_AI_API.git
+   cd SilkRoad_AI_API.git
+
+```
+
 ````
 
 ### Install Dependencies
@@ -180,8 +188,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [NLTK](https://www.nltk.org/) for natural language processing.
 - [Scikit-learn](https://scikit-learn.org/) for machine learning tools.
 
-```
 
-This README provides a comprehensive overview of the project, setup instructions, and details on how the recommendations are generated and presented.
-
-```
