@@ -8,6 +8,9 @@ This project implements a job recommendation system that analyzes job descriptio
 
 ![Silk Road Logo](./silkroad.jpg)
 
+"The journey is long, but with the right path and perseverance, you'll discover new worlds of knowledge."
+— Marco Polo
+
 ## Files
 
 - `app.py`: Contains the FastAPI application code to serve job recommendations via an API endpoint.
@@ -100,59 +103,113 @@ The response will include job titles and additional skills needed based on the i
 
 ```json
 {
-  "user_skills": "python, sql, data analysis",
-  "recommendations": [
-    {
-      "job_title": "Software Engineer, ERP",
-      "matching_skills": 2,
-      "similarity_score": 0.37,
-      "job_skills": ["sql", "python", "c"]
-    },
-    {
-      "job_title": "Software Engineer II - Java",
-      "matching_skills": 2,
-      "similarity_score": 0.34,
-      "job_skills": [
-        "shell",
-        "algorithms",
-        "database",
-        "nosql",
-        "python",
-        "sql",
-        "c",
-        "Object-oriented programming",
-        "Hadoop",
-        "perl",
-        "c++",
-        "rest",
-        "ai",
-        "java",
-        "data architecture"
-      ]
-    },
-    {
-      "job_title": "Software Engineer II - Java",
-      "matching_skills": 2,
-      "similarity_score": 0.34,
-      "job_skills": [
-        "shell",
-        "algorithms",
-        "database",
-        "nosql",
-        "python",
-        "sql",
-        "c",
-        "Object-oriented programming",
-        "Hadoop",
-        "perl",
-        "c++",
-        "rest",
-        "ai",
-        "java",
-        "data architecture"
-      ]
-    }
-  ]
+    "user_skills": "python, sql, data analysis",
+    "recommendations": [
+        {
+            "job_title": "software engineer",
+            "matching_skills": 2,
+            "similarity_score": 0.35,
+            "job_skills": [
+                "Go",
+                "data architecture",
+                "sql",
+                "ai",
+                "algorithms",
+                "c++",
+                "machine learning",
+                "nosql",
+                "c",
+                "database",
+                "Net",
+                "python"
+            ]
+        },
+        {
+            "job_title": "software engineer",
+            "matching_skills": 2,
+            "similarity_score": 0.34,
+            "job_skills": [
+                "scripting",
+                "React",
+                "java",
+                "ply",
+                "data architecture",
+                "sql",
+                "objective-c",
+                "ai",
+                "algorithms",
+                "c++",
+                "Net",
+                "c",
+                "database",
+                "javascript",
+                "python"
+            ]
+        },
+        {
+            "job_title": "software engineer ii - java",
+            "matching_skills": 2,
+            "similarity_score": 0.27,
+            "job_skills": [
+                "scripting",
+                "Hadoop",
+                "java",
+                "oop",
+                "shell",
+                "data architecture",
+                "Object-oriented programming",
+                "rest",
+                "sql",
+                "ai",
+                "perl",
+                "algorithms",
+                "c++",
+                "nosql",
+                "c",
+                "database",
+                "python"
+            ]
+        },
+        {
+            "job_title": "software engineer",
+            "matching_skills": 2,
+            "similarity_score": 0.23,
+            "job_skills": [
+                "aws",
+                "data architecture",
+                "python",
+                "React",
+                "visual",
+                "plan",
+                "Node.js",
+                "perl",
+                "php",
+                "database",
+                "linux",
+                "sql",
+                "html",
+                "scripting",
+                "css",
+                "java",
+                "ai",
+                "algorithms",
+                "nosql",
+                "javascript"
+            ]
+        },
+        {
+            "job_title": "associate professional services engineer",
+            "matching_skills": 2,
+            "similarity_score": 0.21,
+            "job_skills": [
+                "scripting",
+                "sql",
+                "pandas",
+                "javascript",
+                "python"
+            ]
+        }
+    ]
 }
 ```
 
@@ -178,7 +235,7 @@ For detailed API documentation, please refer to the Postman collection:
 
 The application is deployed and can be accessed at:
 
-[Deployed Application](https://recipe-recommender-w5nk.onrender.com/)
+[Deployed Application](https://recipe-recommender-w5nk.onrender.com/recommend/)
 
 ## License
 
