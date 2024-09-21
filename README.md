@@ -1,15 +1,18 @@
 
 # MaroPolo AI Model Endpoints
-![Silk Road Logo](./logo.jpg)
+![Silk Road Logo](./assets/logo.jpg)
 
 ## Overview
 
 This project implements a job recommendation system that analyzes job descriptions and recommends suitable jobs based on a user's skill set. It uses natural language processing (NLP) techniques to extract skills from job summaries and machine learning methods to match these skills with user-provided skills.
 
-![Silk Road Logo](./silkroad.jpg)
+![Silk Road Logo](./assets/silkroad.jpg)
 
-"The journey is long, but with the right path and perseverance, you'll discover new worlds of knowledge."
+### "The journey is long, but with the right path and perseverance, you'll discover new worlds of knowledge."
 — Marco Polo
+
+![Silk Road Mood Board](./assets/SilkRoadMoodBoard.png)
+
 
 ## Files
 
@@ -92,7 +95,7 @@ This will start the server at [http://127.0.0.1:8000](http://127.0.0.1:8000).
 ### Example Request
 
 ```http
-GET /recommend/?skills=python,sql,data analysis
+GET /recommend/?skills=javascript, node.js
 ```
 
 ### Response
@@ -103,108 +106,79 @@ The response will include job titles and additional skills needed based on the i
 
 ```json
 {
-    "user_skills": "python, sql, data analysis",
+    "user_skills": "javascript, node.js",
     "recommendations": [
         {
-            "job_title": "software engineer",
-            "matching_skills": 2,
-            "similarity_score": 0.35,
+            "job_title": "full stack software engineer",
+            "matching_skills": 1,
+            "similarity_score": 0.71,
             "job_skills": [
-                "Go",
-                "data architecture",
-                "sql",
-                "ai",
-                "algorithms",
+                "java",
+                "scala",
+                "Node.js",
                 "c++",
-                "machine learning",
-                "nosql",
-                "c",
-                "database",
-                "Net",
-                "python"
+                "javascript"
             ]
         },
         {
-            "job_title": "software engineer",
-            "matching_skills": 2,
-            "similarity_score": 0.34,
+            "job_title": "full stack developer",
+            "matching_skills": 1,
+            "similarity_score": 0.65,
             "job_skills": [
-                "scripting",
                 "React",
                 "java",
-                "ply",
-                "data architecture",
-                "sql",
-                "objective-c",
-                "ai",
-                "algorithms",
-                "c++",
-                "Net",
-                "c",
-                "database",
+                "Node.js",
+                "Angular",
+                "c#",
                 "javascript",
                 "python"
             ]
         },
         {
-            "job_title": "software engineer ii - java",
-            "matching_skills": 2,
-            "similarity_score": 0.27,
+            "job_title": "growth engineer",
+            "matching_skills": 1,
+            "similarity_score": 0.59,
             "job_skills": [
                 "scripting",
-                "Hadoop",
-                "java",
-                "oop",
-                "shell",
-                "data architecture",
-                "Object-oriented programming",
-                "rest",
-                "sql",
-                "ai",
-                "perl",
-                "algorithms",
-                "c++",
-                "nosql",
-                "c",
-                "database",
-                "python"
-            ]
-        },
-        {
-            "job_title": "software engineer",
-            "matching_skills": 2,
-            "similarity_score": 0.23,
-            "job_skills": [
-                "aws",
-                "data architecture",
-                "python",
                 "React",
-                "visual",
-                "plan",
+                "ply",
                 "Node.js",
-                "perl",
-                "php",
-                "database",
-                "linux",
-                "sql",
-                "html",
-                "scripting",
-                "css",
-                "java",
+                "typescript",
                 "ai",
-                "algorithms",
-                "nosql",
                 "javascript"
             ]
         },
         {
-            "job_title": "associate professional services engineer",
-            "matching_skills": 2,
-            "similarity_score": 0.21,
+            "job_title": "software engineer automation - quality",
+            "matching_skills": 1,
+            "similarity_score": 0.55,
+            "job_skills": [
+                "Go",
+                "java",
+                "Node.js",
+                "ruby",
+                "php",
+                "javascript",
+                "python"
+            ]
+        },
+        {
+            "job_title": "software development engineer in test intern",
+            "matching_skills": 1,
+            "similarity_score": 0.51,
             "job_skills": [
                 "scripting",
-                "sql",
-                "pandas",
+                "React",
+                "css",
+                "visual",
+                "scala",
+                "ply",
+                "js",
+                "Node.js",
+                "ai",
+                "html",
+                "Git",
+                "automation",
                 "javascript",
                 "python"
             ]
