@@ -92,7 +92,7 @@ This will start the server at [http://127.0.0.1:8000](http://127.0.0.1:8000).
 ### Example Request
 
 ```http
-GET /recommend/?skills=python,django,sql
+GET /recommend/?skills=python,sql,data analysis
 ```
 
 ### Response
