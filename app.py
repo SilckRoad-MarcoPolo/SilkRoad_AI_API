@@ -5,10 +5,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 app = FastAPI()
-df = pd.read_csv('jobs_with_skills.csv')
+df = pd.read_csv('Finall.csv')
 
 
-def recommend_jobs(user_skills: str, df: pd.DataFrame, top_n: int = 3) -> List[Dict[str, Any]]:
+def recommend_jobs(user_skills: str, df: pd.DataFrame, top_n: int = 5) -> List[Dict[str, Any]]:
     # Convert user skills to a set
     user_skills_set = set(user_skills.lower().split(', '))
 
